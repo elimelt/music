@@ -144,7 +144,7 @@ function renderHistory() {
 }
 
 function attachChordSymbolHandlers(svg) {
-  const chordGroups = svg.querySelectorAll('g.vf-chordsymbol');
+  const chordGroups = svg.querySelectorAll('g.vf-ChordSymbol');
   chordGroups.forEach((group, idx) => {
     if (idx >= fullHistory.length) return;
     const entry = fullHistory[idx];
